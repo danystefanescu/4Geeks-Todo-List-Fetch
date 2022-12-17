@@ -1,3 +1,9 @@
-i:hover {
+.hidden-icon > span {
+    visibility: hidden;
+}
+
+.hidden-icon:hover > span {
+    visibility: visible;
+    color: rgba(230, 68, 27, 0.822);
     cursor: pointer;
 }
